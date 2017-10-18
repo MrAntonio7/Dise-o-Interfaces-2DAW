@@ -1,0 +1,24 @@
+body h1 {
+  color: #DDDDDD;
+  font-size: 40;
+}
+body h2 {
+  color: #CCCCCC;
+  font-size: 30;
+}
+body h3 {
+  color: #BBBBBB;
+  font-size: 25;
+}
+body h4 {
+  color: #AAAAAA;
+  font-size: 20;
+}
+body h5 {
+  color: #999999;
+  font-size: 15;
+}
+body h6 {
+  color: #888888;
+  font-size: 10;
+}

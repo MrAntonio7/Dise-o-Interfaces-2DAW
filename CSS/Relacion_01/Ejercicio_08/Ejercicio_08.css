@@ -1,0 +1,15 @@
+body {
+  word-spacing: 0.4em;
+  color: #FF0000;
+  font-family: serif;
+}
+
+h1, h2, p {
+  color: #DDDDDD;
+  font-size: 40;
+  font-family: Arial;
+}
+
+p{
+  font-size: 15;
+}

@@ -1,0 +1,20 @@
+body {
+  color: #FF0000;
+  font-family: Verdana;
+}
+
+h1 {
+  color: #FF0000;
+  font-size: 40;
+  font-family: serif;
+}
+h2 {
+  color: #00FF00;
+  font-size: 30;
+  font-family: Courier;
+}
+h3 {
+  color: #0000FF;
+  font-size: 25;
+  font-family: Arial;
+}

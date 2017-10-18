@@ -1,0 +1,18 @@
+h1, h2, h3{
+  border: 2px solid black;
+  color: #0000FF;
+}
+h1 {
+  font-size: 40;
+  font-family: Arial;
+}
+
+h2 {
+  font-size: 30;
+  font-family: Arial Black;
+}
+
+h3 {
+  font-size: 25;
+  font-family: Arial Narrow;
+}

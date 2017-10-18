@@ -1,0 +1,5 @@
+body{
+  background-image: url("fondo.jpg");
+  background-attachment: scroll;
+  /*Background-attachemnt permite fijar o mover el fondo*/
+}

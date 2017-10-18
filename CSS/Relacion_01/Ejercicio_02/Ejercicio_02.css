@@ -1,0 +1,27 @@
+h1 {
+  color: #FF0000;
+  font-size: 40;
+  font-family: Arial;
+}
+h2 {
+  color: #00FF00;
+  font-size: 30;
+  font-family: Arial Black;
+}
+h3 {
+  color: #0000FF;
+  font-size: 25;
+  font-family: Arial Narrow;
+}
+h4 {
+  color: #CCFF00;
+  font-size: 20;
+}
+h5 {
+  color: #FFCC00;
+  font-size: 15;
+}
+h6 {
+  color: #00FFCC;
+  font-size: 10;
+}
