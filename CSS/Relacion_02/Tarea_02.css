@@ -1,0 +1,63 @@
+/*Antonio Jesús Álvarez Malagón*/
+
+/* Selecciona todos los enlaces que apuntan a Selector_01 */
+h1[class^="Selector_01"]{
+  color:  blue;
+}
+h1[class$="Selector_02"]{
+  color:  red;
+}
+h1[class*="Selector_03"]{
+  color:  green;
+}
+
+a[href=""]{
+  color: grey;
+  font-family: Arial Black;
+  background-color: greenyellow;
+}
+
+/* selector adyacente */
+h1 + h2{
+  font-style: serif;
+}
+/* selector general de hermanos */
+h1 ~ h2{
+  font-size: 20px;
+}
+/*selecciona la primera línea del texto de un elemento*/
+h2 + h2::first-line{
+  color: #FFB012;
+}
+
+/*selecciona la parte anterior al contenido de un elemento para insertar nuevo contenido generado.*/
+h2 + h2::before{
+  content: "***";
+}
+/*selecciona la parte posterior al contenido de un elemento para insertar nuevo contenido generado.*/
+h2 + h2::after{
+  content: "***";
+}
+/*selecciona el texto que ha seleccionado un usuario con su ratón o teclado.*/
+::selection{
+  color: red;  background: greenyellow;
+}
+
+/*selecciona los hijos p impares*/
+p:nth-child(odd){
+  color:  #CACACA;
+}
+p:nth-last-child(odd){
+  color: #048B02;
+}
+
+/*Selecciona el numero 3 del padre elemento p*/
+p:nth-of-type(3){
+  color: #FD0159;
+}
+/*Selecciona el numero indicado empezando por el hijo de abajo*/
+p:nth-last-of-type(1){
+  color: #029ff7;
+}
+/*even para los pares
+odd para los impares*/
