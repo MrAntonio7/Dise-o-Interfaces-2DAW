@@ -1,0 +1,116 @@
+
+/*Fuente del texto centrada horizontalmente*/
+* {
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-family: Arial Black;
+  padding: 5px;
+}
+
+/*Fondo azul claro*/
+
+body{
+  background-color: #57b3db;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*Tamaño de los div*/
+
+#titulo, #menu_superior {
+  width: 98%;
+  height: 3em;
+}
+
+/*Titulo: Borde, fondo y margen*/
+
+#titulo {
+  border: 1px solid white;
+  background-color: #f2a40d;
+}
+
+/*Menu superior: Borde, tamaño, margen y fondo*/
+
+#menu_superior {
+  border: 1px solid white;
+  width: 85%;
+  margin: 1em auto;
+  background-color: #ba3a60;
+}
+
+/*Tamaño y margen de todo el cuerpo (Grupo de los elementos contenido)*/
+
+#cuerpo {
+  width: 100%;
+  height: 25em;
+  margin-top: 1em;
+  margin-bottom:2em;
+}
+
+/*Selector de todos los elementos dentro de contenido: Borde y float*/
+
+#cuerpo * {
+  border: 1px solid white;
+  float: left;
+}
+
+/*Menus laterales y contenido: Alto*/
+
+#menu_izquierda, #menu_publicidad, #contenido {
+  height: 80%;
+}
+
+/*Menus laterales: Ancho y fondo*/
+
+#menu_izquierda, #menu_publicidad {
+  width: 13%;
+  background-color: #f2a40d;
+}
+
+/*Contenido: Ancho, margen y fondo*/
+
+#contenido {
+  width: 65%;
+  margin: 0 1em auto;
+  margin-left: 2.5em;
+  background-color: #1157a8;
+}
+
+/*Menu de la derecha: Float y fondo*/
+
+#menu_publicidad {
+  float: right;
+  background-color: #db1313; /*Ejemplo de cascada*/
+}
+
+/*Menu de abajo: Fondo, tamaño y margen*/
+
+#menu_debajo {
+  background-color: #828282;
+  float: left;
+  width: 95%;
+  height: 3em;
+  margin: auto;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+/*Footer: Fondo, borde, tamaño y margen*/
+
+footer {
+  background-color: #f2a40d;
+  border: 1px solid white;
+  width: 98%;
+  height: 3em;
+  margin: 1em;
+  /*margin-top: 5em;*/
+}
+
+/*Centra verticalmente el texto de cada div*/
+
+header *, #cuerpo *, footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
