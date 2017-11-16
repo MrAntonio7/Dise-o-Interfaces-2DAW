@@ -1,0 +1,129 @@
+* {
+  margin: auto;
+  padding: 0;
+  font-family: arial;
+}
+
+/*body*/
+
+body {
+  background-color: #f5bfbe;
+}
+
+/*cabecera*/
+
+header {
+  background-color: #ffffff;
+}
+
+header h1 {
+  text-align: center;
+  color: #220034;
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+header h2 {
+  text-align: center;
+  color: #772d77;
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+/*navegador*/
+
+nav {
+  background-color: #1a5d59;
+  min-height: 2em;
+}
+
+nav p {
+  display: inline;
+}
+
+nav a:link, nav a:visited {
+  text-decoration: none;
+  color: #f1f16c;
+  background-color: #046a40;
+  margin: 0.3em;
+}
+
+nav a:hover, nav a:active {
+  text-decoration: none;
+  color: #9bf5ff;
+  background-color: #4b2a7e;
+  margin: 0.3em;
+}
+
+/*articulo*/
+
+section {
+  width: 75%;
+  background-color: #d8f697;
+  float: left;
+}
+
+section h1 {
+  text-align: center;
+  padding: 0.5em;
+  color: olive;
+  font-size: 1.4em;
+}
+
+section h2 {
+  text-align: center;
+  padding: 0.5em;
+  color: grey;
+  font-size: 1.2em;
+}
+
+section h3 {
+  text-align: left;
+  padding: 0.3em 3em;
+  color: #772d77;
+  font-size: 1em;
+}
+
+/*secciones*/
+
+article {
+  margin: 0.5em 3em;
+  padding: 0.5em 2em;
+  background-color: white;
+  border: 3px double aqua;
+}
+
+article p {
+  text-align: justify;
+}
+
+/*propaganda*/
+
+aside {
+  width: 25%;
+  float: left;
+}
+
+#anuncio {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid blue;
+  background-color: white;
+}
+
+#anuncio h1 {
+  font-size: 1.1em;
+  text-align: left;
+  padding: 0.2em 0em;
+}
+
+#anuncio h2 {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 0.5em 0em;
+}
+
+#anuncio p {
+  font-size: 0.9em;
+  padding: 0.2em 1em;
+}
