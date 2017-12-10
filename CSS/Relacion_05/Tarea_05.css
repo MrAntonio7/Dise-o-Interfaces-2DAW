@@ -1,0 +1,56 @@
+/*Padre con tamaño y un overflow hidden para que el hijo_04 no salga de padre*/
+
+#padre {
+    margin: 0 auto;
+    padding: 1px;
+    width: 50%;
+    height: 600px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+
+/*Bordes para cada hijo*/
+
+#hijo_01,
+#hijo_02,
+#hijo_03,
+#hijo_04 {
+    border: 1px solid black;
+}
+
+
+/*Para hacer el overflow, el padre justo siguiente es al que se adapta al tamaño*/
+
+#hijo_04 {
+    height: 600px;
+    overflow: scroll;
+}
+
+p,
+img {
+    float: left;
+}
+
+
+/*Tamaño de las cajas*/
+
+#hijo_01,
+#hijo_02,
+#hijo_03 {
+    width: 50px;
+    height: 50px;
+}
+
+
+/*Clearfix*/
+
+.clearfix {
+    float: left;
+    clear: both;
+}
+
+#hijo_03 {
+    margin-left: 50px;
+    overflow: hidden;
+}
