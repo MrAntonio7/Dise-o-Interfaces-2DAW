@@ -1,0 +1,87 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+/* NAV */
+
+nav {
+    width: 100%;
+    background: #38acc9;
+    margin: 0px;
+    padding: 0px;
+    height: 20vh;
+    line-height: 20vh;
+}
+
+nav>div {
+    box-sizing: border-box;
+    float: left;
+    border: 1px solid black;
+    width: 33.3%;
+    height: 100%;
+    vertical-align: center;
+    text-align: center;
+}
+
+
+/* CONTENIDO */
+
+#contenido {
+    width: 100%;
+    background: #40c57c;
+    height: 60vh;
+    line-height: 60vh;
+}
+
+#contenido>div {
+    box-sizing: border-box;
+    height: 100%;
+    width: 25%;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+}
+
+
+/* FOOTERS */
+
+footer {
+    width: 100%;
+    background: #886699;
+    line-height: 20vh;
+    height: 20vh;
+}
+
+footer>div {
+    width: 50%;
+    border: 1px solid black;
+    float: left;
+    height: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/* CALCULO DE PORCENTAJES */
+
+
+/* Tamaño de pantalla: 1366px; */
+
+
+/* Elementos del nav
+    Pixeles: 455.29px;
+    Porcenjes: 33.33%; */
+
+
+/* Elementos del contenido
+    Pixeles: 273.2px;
+    Porcentajes: 20%; */
+
+
+/* Elementos del footer
+    Pixeles: 683px;
+    Porcentajes:50%;  */
