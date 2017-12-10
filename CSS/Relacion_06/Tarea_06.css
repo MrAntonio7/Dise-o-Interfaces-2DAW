@@ -1,0 +1,133 @@
+/* Antonio Jesus Alvarez Malagon */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    /* Letra importada */
+    font-family: 'Roboto';
+    background-color: #cfcfcf;
+}
+
+nav {
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    /* Flexbox */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* Radio de los bordes y sombra */
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #707070;
+    /* Gradiente para los diferentes navegadores*/
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 0%, #ffffff 0%, #71ceef 45%, #1571c2 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(0%, #ffffff), color-stop(0%, #ffffff), color-stop(45%, #71ceef), color-stop(100%, #1571c2));
+    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 0%, #ffffff 0%, #71ceef 45%, #1571c2 100%);
+    background: -o-linear-gradient(top, #ffffff 0%, #ffffff 0%, #ffffff 0%, #71ceef 45%, #1571c2 100%);
+    background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 0%, #ffffff 0%, #71ceef 45%, #1571c2 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 0%, #ffffff 0%, #71ceef 45%, #1571c2 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#1571c2', GradientType=0);
+}
+
+
+/* Tamaño del logo */
+
+img {
+    /* Redimiension de la imagen */
+    width: 120px;
+    height: 40px;
+}
+
+#logo {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+div {
+    /* Tamaño */
+    width: 20%;
+    height: 100%;
+    padding: auto;
+    /* Flexbox centrado dentro de cada div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Bordes solo laterales */
+    border: 1px solid #389dbc;
+    border-top: none;
+    border-bottom: none;
+    /* Añade seleccion de cursor a los elementos */
+    cursor: pointer;
+}
+
+div:hover {
+    /* Tiempo de transicion */
+    transition: All 0.7s ease;
+    -webkit-transition: All 0.7s ease;
+    -moz-transition: All 0.7s ease;
+    -o-transition: All 0.7s ease;
+    /* Escala el tamaño del div */
+    transform: scale(1, 2);
+    -webkit-transform: scale(1, 2);
+    -moz-transform: scale(1, 2);
+    -o-transform: scale(1, 2);
+    -ms-transform: scale(1, 2);
+    /* El color gradiente elegido para el hover, de la paleta de color usado en el gradiente sin hover */
+    background: #ffffff;
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #ffffff 0%, #ffffff 0%, #ffffff 36%, #389dbc 80%, #389dbc 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(0%, #ffffff), color-stop(0%, #ffffff), color-stop(36%, #ffffff), color-stop(80%, #389dbc), color-stop(100%, #389dbc));
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #ffffff 0%, #ffffff 0%, #ffffff 36%, #389dbc 80%, #389dbc 100%);
+    background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #ffffff 0%, #ffffff 0%, #ffffff 36%, #389dbc 80%, #389dbc 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #ffffff 0%, #ffffff 0%, #ffffff 36%, #389dbc 80%, #389dbc 100%);
+    background: radial-gradient(ellipse at center, #ffffff 0%, #ffffff 0%, #ffffff 0%, #ffffff 36%, #389dbc 80%, #389dbc 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#389dbc', GradientType=1);
+}
+
+div:hover>a>span {
+    /* Cambio color y sombra de letra al estar en cada div */
+    color: black;
+    text-shadow: 1px 1px 1px black;
+    /* Tiempo de transicion */
+    transition: All 1s ease;
+    -webkit-transition: All 1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+    /* Rota 360 grados y aumenta solo la letra letra horizontalmente */
+    transform: rotate(360deg) scale(1.3, 1);
+    -webkit-transform: rotate(360deg) scale(1.3, 1);
+    -moz-transform: rotate(360deg) scale(1.3, 1);
+    -o-transform: rotate(360deg) scale(1.3, 1);
+    -ms-transform: rotate(360deg) scale(1.3, 1);
+}
+
+#logo:hover>img {
+    /* Tiempo de transicion */
+    transition: All 1s ease;
+    -webkit-transition: All 1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+    /* Rota 360 grados y aumenta */
+    transform: rotate(360deg) scale(1.3, 1);
+    -webkit-transform: rotate(360deg) scale(1.3, 1);
+    -moz-transform: rotate(360deg) scale(1.3, 1);
+    -o-transform: rotate(360deg) scale(1.3, 1);
+    -ms-transform: rotate(360deg) scale(1.3, 1);
+}
+
+div span {
+    display: block;
+}
+
+a {
+    /* Sin decoracion, texto en blanco y con sombra */
+    color: #ffffff;
+    text-decoration-line: none;
+    text-shadow: 2px 2px 2px black;
+}
